@@ -1,2 +1,2 @@
 # emmet-ninja
-HTML File with the shortcuts expose on the Emmet Ninja Nomad Coders Video
+HTML File with the shortcuts exposed on the Emmet Ninja Nomad Coders Video
