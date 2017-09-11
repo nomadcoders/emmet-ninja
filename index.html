@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    header>hgroup>h2+h4
+
+    <header>
+        <hgroup>
+            <h2></h2>
+            <h4></h4>
+        </hgroup>
+    </header>
+
+    header.super-awesome>hgroup#whatever>h2.hello+h4.bye
+
+    <header class="super-awesome">
+        <hgroup id="whatever">
+            <h2 class="hello"></h2>
+            <h4 class="bye"></h4>
+        </hgroup>
+    </header>
+
+    header.super-awesome>hgroup#whatever>h2.hello{Hello!!}+h4.bye{Bye!!!}
+
+    <header class="super-awesome">
+        <hgroup id="whatever">
+            <h2 class="hello">Hello!!</h2>
+            <h4 class="bye">Bye!!!</h4>
+        </hgroup>
+    </header>
+
+    <section class="photo">
+        <header>
+            <h1>photo title</h1>
+        </header>
+        <div class="comments">
+            <ul>
+                <li class="comment">Hello1</li>
+                <li class="comment">Hello2</li>
+                <li class="comment">Hello3</li>
+                <li class="comment">Hello4</li>
+                <li class="comment">Hello5</li>
+            </ul>
+        </div>
+    </section>
+
+    section.photo>(header>h1{Photo Title})+(.comments>ul>li.comment*5{Hello $})
+
+    <section class="photo">
+        <header>
+            <h1>Photo Title</h1>
+        </header>
+        <div class="comments">
+            <ul>
+                <li class="comment">Hello 1</li>
+                <li class="comment">Hello 2</li>
+                <li class="comment">Hello 3</li>
+                <li class="comment">Hello 4</li>
+                <li class="comment">Hello 5</li>
+            </ul>
+        </div>
+    </section>
+
+
+    a:link
+    a:mail
+
+    input:text
+    input:password
+
+    <a href="http://google.com" target="_blank">Google</a>
+
+    
+    
+</body>
+</html>
